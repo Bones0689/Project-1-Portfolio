@@ -1,16 +1,18 @@
 
 #pageContent {
-
-}
-
-#navContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: #721414;
 }
 
+#navContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
 #pageBG {
+    position: absolute;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
