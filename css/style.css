@@ -1,0 +1,51 @@
+
+#pageContent {
+
+}
+
+#navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #721414;
+}
+
+#pageBG {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#navLogo {
+  
+}
+
+#navBio {
+
+}
+
+#navResume {
+
+}
+
+#navContact {
+
+}
+
+#navProjects {
+
+}
+
+
+.navLinks {
+    border: solid black;
+    background-color: black;
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.navButtons {
+    border: solid black;
+}
