@@ -19,7 +19,7 @@
 }
 
 #pageBG {
-    position: absolute;
+    position: fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
