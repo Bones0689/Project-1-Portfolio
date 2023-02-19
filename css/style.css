@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: punk;
+    src: url(./fonts/1\ Punk.ttf)
+}
+
 #pageContent {
     background-color: #721414;
 }
@@ -7,8 +12,10 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: black;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 100px;
 }
 
 #pageBG {
@@ -19,35 +26,31 @@
     background-position: center;
 }
 
-
-#navLogo {
-  
+#pageLogo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
 }
 
-#navBio {
-
+#headShot1 {
+    position: relative;
+    border-radius: 15%;
 }
 
-#navResume {
-
-}
-
-#navContact {
-
-}
-
-#navProjects {
-
-}
-
-
-.navLinks {
-    border: solid black;
-    background-color: black;
-    font-size: 80px;
-    color: whitesmoke;
+#headShot2 {
+    position: relative;
+    border-radius: 15%;
 }
 
 .navButtons {
-    border: solid black;
+   font-size: 40px;
+   font-family: punk;
+   color: rgb(242, 242, 242);
+   text-size-adjust: auto;
+   background-color: rgba(114, 20, 20, .5);
+   border-radius:15px;
+   width: 18vw;
 }
