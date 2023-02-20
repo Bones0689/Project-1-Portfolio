@@ -1,4 +1,5 @@
-
+/* fonts 
+----------------------------------------------*/
 @font-face {
     font-family: punk;
     src: url(./fonts/1\ Punk.ttf)
@@ -13,8 +14,30 @@
     font-family: coffee;
     src: url(./fonts/Coffee-Mood.ttf)
 }
+/* Elements
+----------------------------------------------------*/
+h1 {
+    flex: none;
+    font-family: skulls;
+    font-size: 100px;
+    color: rgb(242, 242, 242);
+}
 
+h2 {
+    flex: none;
+    font-family: coffee;
+    font-size: 140px;
+    color: rgb(242, 242, 242);
+}
 
+p {
+    font-family: coffee;
+    font-size: 60px;
+    color: rgb(242, 242, 242);
+}
+
+/* ID's
+---------------------------------------------------*/
 #pageContent {
     background-color: #721414;
 }
@@ -54,8 +77,9 @@
     color: rgb(242, 242, 242);
     background-color: rgba(0, 0, 0, .5);
     width: 100vw;
-    height: 583px;
+    height: 400px;
 }
+
 
 #sect2 {
     position: relative;
@@ -67,37 +91,18 @@
     height: 583px;
 }
 
-#sect3 {
-    position: relative;
-    display: flex;
-    font-family: punk;
-    color: rgb(242, 242, 242);
-    background-color: rgba(0, 0, 0, .5);
-    width: 100vw;
-    height: 410px;
-}
-
-#sect3 {
-    position: relative;
-    display: flex;
-}
 
 
 #headShot1 {
     position: relative;
-    border-radius: 15%;
-    width: 432px;
-    height: 583px;
-}
-
-#headShot2 {
-    position: relative;
-    border-radius: 15%;
-    width: 432px;
-    height: 583px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
 }
 
 
+/* Classes
+-----------------------------------------------------------------*/
 
 .navButtons {
    font-size: 40px;
