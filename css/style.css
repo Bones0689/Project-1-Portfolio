@@ -36,11 +36,20 @@ h3 {
     color: rgb(242, 242, 242);
 }
 
+h4 {
+    font-family: coffee;
+    font-size: 50px;
+    border: solid rgb(242, 242, 242);
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
 /* ID's
 ---------------------------------------------------*/
 #pageContent {
     background-color: #721414;
 }
+
 
 #navContainer {
     position: relative;
@@ -102,6 +111,29 @@ h3 {
     height: 583px;
 }
 
+#projSect1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 1000px;
+}
+
+
+
+#gitHubImg {
+    width: 500px;
+    height: 400px;
+}
+
+#gmailImg {
+    width: 500px;
+    height: 583px;
+}
 
 
 #headShot1 {
@@ -109,10 +141,6 @@ h3 {
     border-radius: 50%;
     width: 400px;
     height: 400px;
-}
-
-#bioPage {
-
 }
 
 
