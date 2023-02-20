@@ -44,6 +44,9 @@ h4 {
     background-color: rgba(0, 0, 0, .5);
 }
 
+a {
+    color: rgb(242, 242, 242);
+}
 /* ID's
 ---------------------------------------------------*/
 #pageContent {
@@ -135,6 +138,24 @@ h4 {
     height: 583px;
 }
 
+#contactHeader {
+    font-size: 75px;
+}
+
+#contactsImg {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+#contactsImg2 {
+    position: absolute;
+    align-self: flex-end;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
 
 #headShot1 {
     position: relative;
