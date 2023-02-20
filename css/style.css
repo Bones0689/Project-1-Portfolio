@@ -4,6 +4,17 @@
     src: url(./fonts/1\ Punk.ttf)
 }
 
+@font-face {
+    font-family: skulls;
+    src: url(./fonts/skullcap.ttf)
+}
+
+@font-face {
+    font-family: coffee;
+    src: url(./fonts/Coffee-Mood.ttf)
+}
+
+
 #pageContent {
     background-color: #721414;
 }
@@ -29,21 +40,64 @@
 #pageLogo {
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 400px;
     border-radius: 50%;
 }
 
+
+#sect1 {
+    position: relative;
+    display: flex;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 583px;
+}
+
+#sect2 {
+    position: relative;
+    display: flex;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 583px;
+}
+
+#sect3 {
+    position: relative;
+    display: flex;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 410px;
+}
+
+#sect3 {
+    position: relative;
+    display: flex;
+}
+
+
 #headShot1 {
     position: relative;
     border-radius: 15%;
+    width: 432px;
+    height: 583px;
 }
 
 #headShot2 {
     position: relative;
     border-radius: 15%;
+    width: 432px;
+    height: 583px;
 }
+
+
 
 .navButtons {
    font-size: 40px;
