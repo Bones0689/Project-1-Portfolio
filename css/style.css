@@ -104,8 +104,12 @@ p {
 /* Classes
 -----------------------------------------------------------------*/
 
+.thisPage {
+    background-color: rgba(114, 20, 20, .8);
+}
+
 .navButtons {
-   font-size: 40px;
+   font-size: 100%;
    font-family: punk;
    color: rgb(242, 242, 242);
    text-size-adjust: auto;
