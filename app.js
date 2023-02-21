@@ -1,0 +1,4 @@
+/* goals
+----------*/
+// Projects picture carousel
+//
