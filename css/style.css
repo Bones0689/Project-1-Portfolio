@@ -22,6 +22,20 @@
     100% { opacity: 1; }
   }
 
+@keyframes color-change {
+    0% { color: rgb(242, 242, 242); }
+    50% { color: #721414; }
+    100% { color: rgba(0, 0, 0, .5); }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 /* Elements
 ----------------------------------------------------*/
 h1 {
@@ -145,7 +159,7 @@ a {
 }
 
 #resumeIMG {
-    animation: fadeIn 10s;
+    animation: fadeIn 8s;
     align-self: center;
 }
 
@@ -173,12 +187,14 @@ a {
 }
 
 #contactsHeader {
+    position: relative;
     font-size: 75px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 #contactsImg {
+    animation: rotation 1s;
     position: absolute;
     height: 350px;
     width: 350px;
@@ -186,12 +202,14 @@ a {
 }
 
 #contactsImg2 {
+    animation: rotation 1s;
     position: absolute;
     align-self: flex-end;
     height: 350px;
     width: 350px;
     border-radius: 50%;
 }
+
 
 #headShot1 {
     position: relative;
@@ -270,6 +288,10 @@ a {
     width: 18vw;
 }
 
+.navButtons:hover {
+    background-color: rgba(114, 20, 20, .9);
+}
+
 .BioText {
     position: relative;
     font-size: 30px;
@@ -288,3 +310,8 @@ a {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.contactColor {
+    animation: color-change 4s infinite;
+}
+
