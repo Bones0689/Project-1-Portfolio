@@ -14,6 +14,7 @@
     font-family: coffee;
     src: url(./fonts/Coffee-Mood.ttf)
 }
+
 /* Elements
 ----------------------------------------------------*/
 h1 {
@@ -141,7 +142,7 @@ a {
 }
 
 
-#projSect1 {
+#linkSect1 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -194,23 +195,55 @@ a {
 #projContainer {
     position: relative;
     display: flex;
-    flex-direction: column;
     text-align: center;
     font-family: punk;
     color: rgb(242, 242, 242);
     background-color: rgba(0, 0, 0, .5);
-    width: 100vw;
-    height: 100%;
 }
 
-#proj1 {
-    
-}
+    #proj1 {
+        flex-direction: row;
+        text-align: center;
+        width: 100vw;
+        height: 800px;
+        position: relative;
+        background-color: rgba(0, 0, 0, .5);
+        border: solid rgba(114, 20, 20, .8);
+        border-style: dotted;
+    }
 
-#proj2 {
+    #proj2 {
+        flex-direction: row;
+        text-align: center;
+        width: 100vw;
+        height: 800px;
+        position: relative;
+        background-color: rgba(0, 0, 0, .5);
+        border: solid rgba(114, 20, 20, .8);
+        border-style: dotted;
+    }
 
+    #projIMG1 {
+        margin-top: 0;
+        padding-top: 0;
+        height: 460px;
+    }
 
-}
+    #projIMG2 {
+        height: 400px;
+    }
+
+    #projText {
+        justify-content: space-around;
+        position: relative;
+        font-size: 60px;
+        text-align: center;
+        color: rgb(242, 242, 242);
+        border: solid rgba(114, 20, 20, .8);
+        background-color: rgba(0, 0, 0, .5);
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 
 /* Classes
 -----------------------------------------------------------------*/
@@ -220,13 +253,13 @@ a {
 }
 
 .navButtons {
-   font-size: 100%;
-   font-family: punk;
-   color: rgb(242, 242, 242);
-   text-size-adjust: auto;
-   background-color: rgba(114, 20, 20, .5);
-   border-radius:15px;
-   width: 18vw;
+    font-size: 100%;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    text-size-adjust: auto;
+    background-color: rgba(114, 20, 20, .5);
+    border-radius: 15px;
+    width: 18vw;
 }
 
 .BioText {
@@ -241,4 +274,9 @@ a {
 .BioHobbies {
     margin: 0;
     padding: 0;
+}
+
+.marginH3 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
