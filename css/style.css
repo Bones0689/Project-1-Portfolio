@@ -47,6 +47,8 @@ h4 {
 a {
     color: rgb(242, 242, 242);
 }
+
+
 /* ID's
 ---------------------------------------------------*/
 #pageContent {
@@ -72,7 +74,15 @@ a {
     background-color: rgba(0, 0, 0, .5);
     background-position: center;
     width: 100vw;
+}
 
+
+#bioPic1 {
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    border: solid rgb(242, 242, 242);
+    border-radius: 50%;
 }
 
 #pageBG {
@@ -201,3 +211,16 @@ a {
    width: 18vw;
 }
 
+.BioText {
+    position: relative;
+    font-size: 30px;
+    font-family: coffee;
+    color: rgb(242, 242, 242);
+    margin: 0;
+    padding: 0;
+}
+
+.BioHobbies {
+    margin: 0;
+    padding: 0;
+}
