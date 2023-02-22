@@ -14,6 +14,13 @@
     font-family: coffee;
     src: url(./fonts/Coffee-Mood.ttf)
 }
+/* keyframes
+-------------*/
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 /* Elements
 ----------------------------------------------------*/
@@ -138,6 +145,7 @@ a {
 }
 
 #resumeIMG {
+    animation: fadeIn 10s;
     align-self: center;
 }
 
