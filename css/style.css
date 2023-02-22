@@ -191,8 +191,26 @@ a {
     height: 400px;
 }
 
+#projContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 100%;
+}
+
+#proj1 {
+    
+}
+
+#proj2 {
 
 
+}
 
 /* Classes
 -----------------------------------------------------------------*/
