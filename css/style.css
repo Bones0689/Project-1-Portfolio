@@ -28,6 +28,15 @@
     100% { color: rgba(0, 0, 0, .5); }
 }
 
+@keyframes grow {
+    0% {transform: scale(1);}
+    100% {transform: scale(2);}
+}
+
+@keyframes shrink {
+    0% {transform: scale(2);}
+    100% {transform: scale(1);}
+}
 /* Elements
 ----------------------------------------------------*/
 
@@ -256,10 +265,12 @@ a {
     width: 18vw;
 }
 
+/*
 .navButtons:hover {
-    background-color: rgba(114, 20, 20, .9);
+  background-color: rgba(114, 20, 20, .9);
     
 }
+*/
 
 .BioText {
     position: relative;

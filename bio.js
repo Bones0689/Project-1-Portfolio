@@ -15,3 +15,16 @@ for(button of buttons) {
         e.target.style.backgroundColor = "rgba(114, 20, 20, .5)"
     })
 }
+
+const logo = document.getElementById('pageLogo')
+
+function grow() {
+    logo.style.animation = "grow 6s"
+}
+
+function shrink() {
+    logo.style.animation = "shrink 1s"
+}
+
+logo.addEventListener('mouseover', grow)
+logo.addEventListener('mouseout', shrink)
