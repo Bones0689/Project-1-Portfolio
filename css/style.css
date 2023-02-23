@@ -28,33 +28,19 @@
     100% { color: rgba(0, 0, 0, .5); }
 }
 
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
 /* Elements
 ----------------------------------------------------*/
-h1 {
-    flex: none;
-    font-family: skulls;
-    font-size: 100px;
-    color: rgb(242, 242, 242);
-}
 
 h2 {
     flex: none;
     font-family: coffee;
-    font-size: 140px;
+    font-size: 80px;
     color: rgb(242, 242, 242);
 }
 
 h3 {
     font-family: coffee;
-    font-size: 100px;
+    font-size: 65px;
     color: rgb(242, 242, 242);
 }
 
@@ -75,6 +61,8 @@ a {
 ---------------------------------------------------*/
 #pageContent {
     background-color: #721414;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -90,9 +78,9 @@ a {
 
 #bio {
     text-align: center;
-    position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: rgba(0, 0, 0, .5);
     background-position: center;
     width: 100vw;
@@ -101,8 +89,8 @@ a {
 
 #bioPic1 {
     align-self: center;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: solid rgb(242, 242, 242);
     border-radius: 50%;
 }
@@ -116,34 +104,32 @@ a {
 }
 
 #pageLogo {
-    display: flex;
     justify-content: center;
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    padding-top: 50px;
 }
 
 
 #sect1 {
     position: relative;
-    display: flex;
+    text-align: center;
     font-family: punk;
     color: rgb(242, 242, 242);
     background-color: rgba(0, 0, 0, .5);
     width: 100vw;
-    height: 400px;
 }
 
 
 #sect2 {
     position: relative;
-    display: flex;
+    text-align: center;
     font-family: punk;
     color: rgb(242, 242, 242);
     background-color: rgba(0, 0, 0, .5);
     width: 100vw;
-    height: 583px;
 }
 
 #resContainer {
@@ -173,7 +159,6 @@ a {
     color: rgb(242, 242, 242);
     background-color: rgba(0, 0, 0, .5);
     width: 100vw;
-    height: 1000px;
 }
 
 #gitHubImg {
@@ -193,29 +178,11 @@ a {
     padding-right: 20px;
 }
 
-#contactsImg {
-    animation: rotation 1s;
-    position: absolute;
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-}
-
-#contactsImg2 {
-    animation: rotation 1s;
-    position: absolute;
-    align-self: flex-end;
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-}
-
-
 #headShot1 {
     position: relative;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 #projContainer {
@@ -271,6 +238,7 @@ a {
         margin-top: 0;
     }
 
+
 /* Classes
 -----------------------------------------------------------------*/
 
@@ -290,6 +258,7 @@ a {
 
 .navButtons:hover {
     background-color: rgba(114, 20, 20, .9);
+    
 }
 
 .BioText {
@@ -297,8 +266,10 @@ a {
     font-size: 30px;
     font-family: coffee;
     color: rgb(242, 242, 242);
-    margin: 0;
-    padding: 0;
+    width: 75vw;
+    margin-top: 80px;
+    padding-bottom: 500px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .BioHobbies {
