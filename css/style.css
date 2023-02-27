@@ -23,12 +23,16 @@ h4 {
     background-color: rgba(0, 0, 0, .5);
 }
 
-a {
+/* attempt to remove link color from blue */
+a { 
     color: rgb(242, 242, 242);
 }
 
 /* ID's
 ---------------------------------------------------*/
+
+/* Universal
+-------------------*/
 #pageContent {
     background-color: #721414;
     display: flex;
@@ -46,7 +50,27 @@ a {
     height: 100px;
 }
 
-#bio {
+
+#bio1 {
+    position: relative;
+    text-align: center;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+}
+
+
+#bio2 {
+    position: relative;
+    text-align: center;
+    font-family: punk;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+}
+
+#bio3 {
     position: relative;
     text-align: center;
     display: flex;
@@ -81,26 +105,6 @@ a {
     height: 200px;
     border-radius: 50%;
     padding-top: 50px;
-}
-
-
-#sect1 {
-    position: relative;
-    text-align: center;
-    font-family: punk;
-    color: rgb(242, 242, 242);
-    background-color: rgba(0, 0, 0, .5);
-    width: 100vw;
-}
-
-
-#sect2 {
-    position: relative;
-    text-align: center;
-    font-family: punk;
-    color: rgb(242, 242, 242);
-    background-color: rgba(0, 0, 0, .5);
-    width: 100vw;
 }
 
 #resContainer {
