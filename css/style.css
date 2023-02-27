@@ -31,8 +31,6 @@ a {
 /* ID's
 ---------------------------------------------------*/
 
-/* Universal
--------------------*/
 #pageContent {
     background-color: #721414;
     display: flex;
@@ -261,11 +259,6 @@ a {
 @font-face {
     font-family: punk;
     src: url(./fonts/1\ Punk.ttf)
-}
-
-@font-face {
-    font-family: skulls;
-    src: url(./fonts/skullcap.ttf)
 }
 
 @font-face {

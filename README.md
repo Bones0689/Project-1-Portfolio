@@ -2,8 +2,6 @@
 ![screenshot](https://github.com/Bones0689/Project-1-Portfolio/blob/main/imgs/webIMG.png)
 ### Welcome to My Project1 Portfolio!
 
-#### Quick-Ref:
-
 #### Installation instructions:
 To visit my website, click [here](https://bones0689.github.io/Project-1-Portfolio/)!
 
